@@ -1,0 +1,54 @@
+<!-- Not Responsive -->
+<!--Created by Shardul Birje-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Playball&display=swap" rel="stylesheet"> -->
+    <title>CAESAR CIPHER</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div class="content">
+      	<h1>Caesar Cipher</h1>
+		<span id="info" onclick="info()">i</span>
+        <div id="about">
+	        About the code
+	        <ul>
+       	    	<li>The Caesar Cipher technique is one of the earliest and simplest method of encryption technique. It’s simply a type of substitution cipher</li>
+	            <li>Each letter of a given text is replaced by a letter some fixed number of positions down the alphabet. For example with a shift of 1, A would be replaced by B, B would become C, and so on </li>
+	        </ul>
+	        Rules for input
+	        <ul>
+	           	<li>For decryption key should be same as encryption</li> 
+	            <li>input text/key cannot be blank 
+	            </li>
+	            <li>input text can only have alphabets</li>
+	            <li>key cannot be less than 1 and greater than 25</li>
+	        </ul> 
+	        <span id="bck"onclick="back()">Back</span> 
+	    </div>
+        <div id="enc">
+	        <input type="text" id="input" placeholder="Enter any text..." autocomplete="off"/>
+	        <input type="number" id="key" placeholder="Enter the key.. "autocomplete="off"/>
+	        <br/>
+	        <input type="button" value="Encrypt" onclick="encrypt()" id="button"/>
+	    </div>
+        <div id="encrypt"></div>
+        <div id="dec">
+            <input type="text" id="inpdec" placeholder="Enter text to decrypt..." autocomplete="off"/>
+	        <input type="number"id="keydec"placeholder="Enter the key.."autocomplete="off"/>
+	        <br/>
+	        <input type="button"value="Decrypt"onclick="decrypt()"id="button1"/>
+        </div>
+        <div id="decrypt">
+	            
+        </div>
+        <footer>
+	       A Creation of <a href="https://www.sololearn.com/Profile/5742610">Shardul Birje</a>
+        </footer> 
+    </div>
+	<script src="./script.js"></script>
+</body>
+</html>

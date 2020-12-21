@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap');
+.container{
+    position:absolute;
+    height:100vh;
+    width:100vw;
+    left:0;
+    top:0;
+    background-color:#FAFAD2;
+}
+.top{
+    background-color:#191970;
+    min-width:inherit;
+    position:relative;
+    min-height:8vh;  
+    z-index:0; 
+}
+.top span{
+    position:relative;
+    color:#FFF;
+    top:1vh;
+    font-family: 'Bitter', serif;
+    font-size:1.2em;
+    height:inherit;
+}
+.center{
+    width:inherit;
+    position:relative;
+    height:92vh;
+}
+.credit{
+    position:absolute;
+    min-width:30vw;
+    min-height:2.2vh;
+    background-color:#191970;
+    font-size:0.6em;
+    border-radius:10px;
+    text-align:center;
+    bottom:2vh;
+    right:2vh;
+    box-shadow:1.5px 1.5px 5px 0 #000;
+}
+.credit a{
+    text-decoration:none;
+    color:#FFF;
+    font-family: 'Pacifico', cursive;
+}
+.top a{
+    color:#FFF;
+    text-decoration:none;
+    right:3vw;
+    top:1.5vh;
+    position:absolute;
+    font-size:1em;
+}
